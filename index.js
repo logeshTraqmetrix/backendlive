@@ -52,7 +52,7 @@ require('dotenv').config();
 
 // Define a route to handle GET requests
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello Logesh');
 });
 
 // Use process.env.PORT or default to 3000 if PORT is not set
